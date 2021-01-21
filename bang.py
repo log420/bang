@@ -114,7 +114,7 @@ def login():
 		pwd = raw_input('\033[1;96m[+] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
-			br.open('https://m.facebook.com')
+			br.open('https://mbasic.facebook.com')
 		except mechanize.URLError:
 			print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 			keluar()
